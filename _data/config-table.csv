@@ -1,4 +1,5 @@
 field,display_name
 title,Name of Institution
 description,Description
-Website,Website
+website,Website
+address,Address
