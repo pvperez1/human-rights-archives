@@ -1,5 +1,5 @@
 field,index,display
-name,true,true
+title,true,true
 description,true,true
 subject,true,true
 location,true,false
