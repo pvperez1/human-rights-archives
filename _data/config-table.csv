@@ -1,5 +1,4 @@
 field,display_name
-title,Title
-date,Date
+name,Name of Institution
 description,Description
-subject,Subjects
+website,Website
