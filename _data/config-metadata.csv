@@ -1,5 +1,5 @@
 field,display_name,browse_link,external_link
-name,Name of Institution,
+title,Name of Institution,
 description,Description,
 subject,Subjects,true
 location,Location
