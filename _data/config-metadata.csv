@@ -9,4 +9,6 @@ source,Source
 identifier,Source Identifier,,
 type,Type,
 format,Format,
-Website,Website
+website,Website,,true
+language,Language
+address,Address
