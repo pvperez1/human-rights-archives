@@ -9,6 +9,13 @@ function findFileLink(record) {
     var fileLink = record.filename.includes('/') ? record.filename : "{{ '/objects/' | relative_url }}" + record.filename;
     return fileLink;
 }
+
+/* function to return the 'website' metadata */
+function findwebsite(record) {
+    var website = record.website;
+    return website;
+}
+
 /* function to create item page features */ 
 function displayItem(record, prev_id, next_id, compound_object) { 
 
@@ -59,7 +66,7 @@ function displayItem(record, prev_id, next_id, compound_object) {
             itemDownload = '<a href="' + findFileLink(item) + '" target="_blank" rel="noopener" class="btn btn-outline-primary" title="Object download">Download ' + item.format.split("/").pop().toUpperCase() + '</a>';
         } else if (item.format.includes('record')) {
             itemDisplay = item === record ? '' : '<img class="w-25" src="{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-record }}.svg" alt="No preview found">';
-            itemDownload = findFileLink(item) != "" ? '<a href="' + findFileLink(item) + '" target="_blank" rel="noopener" class="btn btn-outline-primary" title="Object download">Link to Object</a>' : '';
+            itemDownload = findwebsite(item) != "" ? '<a href="' + findwebsite(item) + '" target="_blank" rel="noopener" class="btn btn-outline-primary" title="Object download">Link to the Archives</a>' : '';
         } else {
             /* fall back to no preview if it doesn't know the format */
             itemDisplay = '<img class="w-50" src="{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-default }}.svg" alt="No preview found">';
