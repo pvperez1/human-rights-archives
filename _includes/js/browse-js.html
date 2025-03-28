@@ -30,7 +30,7 @@ function makeCard(obj) {
     } else if (obj.format.includes("pdf")) {
       thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-pdf }}.svg';
     } else if (obj.format.includes("record")) {
-        thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-record }}.svg';
+      imgSrc = obj.filename.includes("/") ? obj.filename : "{{ '/objects/' | relative_url }}" + obj.filename;
     } else if (obj.format.includes("compound")) {
         thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-compound-object }}.svg';
     } else if (obj.format.includes("multiple")) {
