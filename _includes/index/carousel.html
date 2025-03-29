@@ -59,9 +59,9 @@
     var {{ functionName }} = function(cb_items) { 
         // filter to items with format image or youtubeid
         {% if site.data.theme.carousel-child-objects == true %}
-        var carouselItems = cb_items.filter(item => (item.youtubeid || item.format.includes("image")) && item.title);
+        var carouselItems = cb_items.filter(item => (item.youtubeid || item.format.includes("record")) && item.title);
         {% else %}
-        var carouselItems = cb_items.filter(item => (item.youtubeid || item.format.includes("image")) && !item.parentid);
+        var carouselItems = cb_items.filter(item => (item.youtubeid || item.format.includes("record")) && !item.parentid);
         {% endif %}
         
         /* shuffle items */
