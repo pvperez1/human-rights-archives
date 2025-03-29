@@ -30,6 +30,12 @@ function makeCard(obj) {
         thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-compound-object }}.svg';
     } else if (obj.format.includes("multiple")) {
         thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-multiple }}.svg';
+    } else if (obj.format.includes("record")) { /* added this condition for record */
+        if(obj.filename.includes("/")) { 
+            thumbSrc = obj.filename; 
+        } else { 
+            thumbSrc = "{{ '/objects/' | relative_url }}" + obj.filename; 
+        }
     } else {
         thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-default }}.svg';
     }  
