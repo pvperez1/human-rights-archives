@@ -22,10 +22,10 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-sheets
 # title of site appears in banner
 title: Mapping Human Rights Archives
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: 
+tagline: A resource for human rights researchers
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-Sheets is a template for creating simple digital exhibit websites by loading collection metadata directly from a CSV, designed for teaching digital library skills."
+description: "This project is an attempt to make visible the different archives documenting issues on human rights violations across the world. To submit a human rights archives, please go to https://bit.ly/hr-archives"
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: Paul Jason Perez
 
