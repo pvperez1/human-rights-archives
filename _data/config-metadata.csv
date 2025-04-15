@@ -1,11 +1,11 @@
 field,display_name,browse_link,external_link
 title,Name of Institution,
 description,Description,
+institution,Type of Institution,
 subject,Subjects,true
-location,Location
+location,Location,true
 latitude,Latitude
 longitude,Longitude
-source,Source
 identifier,Source Identifier,,
 type,Type,
 format,Format,
