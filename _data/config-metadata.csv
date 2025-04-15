@@ -8,7 +8,6 @@ latitude,Latitude
 longitude,Longitude
 identifier,Source Identifier,,
 type,Type,
-format,Format,
 website,Website,,true
 language,Language
 address,Address
