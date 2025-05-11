@@ -69,9 +69,9 @@ custom-foot: js/browse-js.html
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                {% assign mapped_institutions = site.data[site.metadata] | map: "institution" | compact | uniq %}{% capture institution %}{% for s in mapped_institutions %}{{s}}  {% endfor %}{% endcapture %}
+                {% assign mapped_institutions = site.data[site.metadata] | map: "institution" | compact | uniq %}{% capture included_institutions %}{% for s in mapped_institutions %}{{s}}  {% endfor %}{% endcapture %}
                 
-                {% for itype in site.data.institution-types%} {% if institution contains itype.title %}
+                {% for itype in site.data.institution-types%} {% if included_institutions contains itype.title %}
                 <a href="#{{itype.title}}" class="btn btn-outline-dark btn-sm m-1">{{itype.title}}</a>
                 {% endif %}
               {% endfor %}
