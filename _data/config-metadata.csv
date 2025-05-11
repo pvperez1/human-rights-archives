@@ -1,7 +1,8 @@
 field,display_name,browse_link,external_link
 title,Name of Institution,
 description,Description,
-institution,Type of Institution,
+institution,Type of Institution,true
+provenance,Origin of collections
 subject,Subjects,true
 location,Location,true
 latitude,Latitude
@@ -9,5 +10,6 @@ longitude,Longitude
 identifier,Source Identifier,,
 type,Type,
 website,Website,,true
+access,Has online materials available?
 language,Language
 address,Address
