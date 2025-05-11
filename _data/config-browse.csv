@@ -1,6 +1,6 @@
 field,display_name,btn,hidden,sort_name
 subject,,true
-hrv,,true
+hrv,,,true
 location,,true,,Country
 provenance,,,true
 institution,,,true
