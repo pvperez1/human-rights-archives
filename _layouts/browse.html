@@ -50,7 +50,7 @@ custom-foot: js/browse-js.html
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                {% assign mapped_provenance = site.data[site.metadata-csv] | map: "provenance" | compact | uniq %}{% capture included_ptype %}{% for s in mapped_provenance %}{{s}}  {% endfor %}{% endcapture %}
+                {% assign mapped_provenance = site.data[site.metadata] | map: "provenance" | compact | uniq %}{% capture included_ptype %}{% for s in mapped_provenance %}{{s}}  {% endfor %}{% endcapture %}
                 
                   {% for ptype in site.data.accordion-1%} {% if included_ptype contains ptype.title %}
                   <a href="#{{ptype.title}}" class="btn btn-outline-dark btn-sm m-1">{{ptype.title}}</a>
@@ -69,7 +69,7 @@ custom-foot: js/browse-js.html
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                {% assign mapped_institutions = site.data[site.metadata-csv] | map: "institution" | compact | uniq %}{% capture included_institutions %}{% for s in mapped_institutions %}{{s}}  {% endfor %}{% endcapture %}
+                {% assign mapped_institutions = site.data[site.metadata] | map: "institution" | compact | uniq %}{% capture included_institutions %}{% for s in mapped_institutions %}{{s}}  {% endfor %}{% endcapture %}
                 
                 {% for itype in site.data.accordion-2%} {% if included_institutions contains itype.title %}
                 <a href="#{{itype.title}}" class="btn btn-outline-dark btn-sm m-1">{{itype.title}}</a>
@@ -86,7 +86,7 @@ custom-foot: js/browse-js.html
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                {% assign mapped_access = site.data[site.metadata-csv] | map: "access" | compact | uniq %}{% capture included_access %}{% for s in mapped_access %}{{s}}  {% endfor %}{% endcapture %}
+                {% assign mapped_access = site.data[site.metadata] | map: "access" | compact | uniq %}{% capture included_access %}{% for s in mapped_access %}{{s}}  {% endfor %}{% endcapture %}
                 {% for atype in site.data.accordion-3%} {% if included_access contains atype.title %}
                 <a href="#{{atype.title}}" class="btn btn-outline-dark btn-sm m-1">{{atype.title}}</a>
                 {% endif %}
