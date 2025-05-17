@@ -191,7 +191,7 @@ function objectMarkers(feature,latlng) {
     /* custom icon declarations */
     var HRArchivesIcon = L.Icon.extend({
         options:{
-            shadowUrl: 'map-icons/shadow.png',
+            shadowUrl: 'assets/map-icons/shadow.png',
             iconSize:     [38, 95], // size of the icon
             shadowSize:   [50, 64], // size of the shadow
             iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
@@ -200,14 +200,14 @@ function objectMarkers(feature,latlng) {
         }
     });
 
-    var hrngo = new HRArchivesIcon({iconUrl: 'map-icons/hrngo.png'}),
-        commissions = new HRArchivesIcon({iconUrl: 'map-icons/commissions.png'}),
-        community = new HRArchivesIcon({iconUrl: 'map-icons/community.png'}),
-        court = new HRArchivesIcon({iconUrl: 'map-icons/court.png'}),
-        lam = new HRArchivesIcon({iconUrl: 'map-icons/lam.png'}),
-        othergov = new HRArchivesIcon({iconUrl: 'map-icons/othergov.png'}),
-        religious = new HRArchivesIcon({iconUrl: 'map-icons/religious.png'}),
-        research = new HRArchivesIcon({iconUrl: 'map-icons/research.png'})
+    var hrngo = new HRArchivesIcon({iconUrl: 'assets/map-icons/hrngo.png'}),
+        commissions = new HRArchivesIcon({iconUrl: 'assets/map-icons/commissions.png'}),
+        community = new HRArchivesIcon({iconUrl: 'assets/map-icons/community.png'}),
+        court = new HRArchivesIcon({iconUrl: 'assets/map-icons/court.png'}),
+        lam = new HRArchivesIcon({iconUrl: 'assets/map-icons/lam.png'}),
+        othergov = new HRArchivesIcon({iconUrl: 'assets/map-icons/othergov.png'}),
+        religious = new HRArchivesIcon({iconUrl: 'assets/map-icons/religious.png'}),
+        research = new HRArchivesIcon({iconUrl: 'assets/map-icons/research.png'})
     ;
 
     var marker = L.marker(latlng, {icon:hrngo}, {alt: feature.properties.title});
