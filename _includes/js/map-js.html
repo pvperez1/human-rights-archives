@@ -189,6 +189,7 @@ function objectPopups(feature, layer) {
 /* function to add objects to map */
 function objectMarkers(feature,latlng) {
     /* custom icon declarations */
+    /*
     var HRArchivesIcon = L.Icon.extend({
         options:{
             shadowUrl: 'assets/map-icons/shadow.png',
@@ -209,8 +210,8 @@ function objectMarkers(feature,latlng) {
         religious = new HRArchivesIcon({iconUrl: 'assets/map-icons/religious.png'}),
         research = new HRArchivesIcon({iconUrl: 'assets/map-icons/research.png'})
     ;
-
-    var marker = L.marker(latlng, {icon:hrngo}, {alt: feature.properties.title});
+    */
+    var marker = L.marker(latlng, /*{icon:hrngo}*/, {alt: feature.properties.title});
     {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
     return marker;
 }
