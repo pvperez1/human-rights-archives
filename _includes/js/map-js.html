@@ -211,7 +211,7 @@ function objectMarkers(feature,latlng) {
         research = new HRArchivesIcon({iconUrl: 'assets/map-icons/research.png'})
     ;
     */
-    var marker = L.marker(latlng, /*{icon:hrngo}*/, {alt: feature.properties.title});
+    var marker = L.marker(latlng, /*{icon:hrngo},*/ {alt: feature.properties.title});
     {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
     return marker;
 }
