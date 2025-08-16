@@ -210,8 +210,26 @@ function objectMarkers(feature,latlng) {
         religious = new HRArchivesIcon({iconUrl: 'assets/map-icons/religious.png'}),
         research = new HRArchivesIcon({iconUrl: 'assets/map-icons/research.png'})
     ;
+
+    var iconMap = {
+        "Tribunals and other courts": commissions,
+        "Religious Sector": religious,
+        "University or Research Institute": research,
+        "Public Library, Archives, or Museum": court,
+        "Community-led, family, or individuals": community,
+        "Other government agencies": othergov,
+        "Human Rights and Non-government Organizations": hrngo,
+        "Truth, Reparations, and/or Memorialization Commissions": lam
+        // Add more as needed
+    };
     
-    var marker = L.marker(latlng, {icon:hrngo}, {alt: feature.properties.title});
+    // Get the institution value
+    var institution = feature.properties.institution;
+
+    // Select the icon based on institution, fallback to hrngo
+    var selectedIcon = iconMap[institution] || hrngo;
+
+    var marker = L.marker(latlng, {icon:selectedIcon}, {alt: feature.properties.title});
     {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
     return marker;
 }
