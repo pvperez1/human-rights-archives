@@ -42,6 +42,22 @@ In terms or type of institution, this project identified the following:
 - <img src="{{ '/assets/map-icons/religious.png' | relative_url }}" alt="Religious icon" width="32"> Religious Sector
 - <img src="{{ '/assets/map-icons/othergov.png' | relative_url }}" alt="Other Government icon" width="32"> Other government agencies
 
+## Lessons Learned so far
+
+From mapping these various archives and learning about their histories, three key lessons emerged.
+
+**Understanding Provenance**
+First and foremost is the importance of understanding the unique circumstances of the origins of the records of human rights archives. Understanding their provenance can help us decide the levels of care needed, or risks associated with our collections.
+
+**International Cooperation and Networking**
+Next is that preserving and activating records of human rights violations is a universal or international concern. Partnerships between Latin American archivists and U.S. institutions, for example, have helped digitize and safeguard records of enforced disappearances that might otherwise have been lost.
+
+**The Progress of Human Rights Documentation**
+The teleological assumption of a linear, cumulative progression within human rights advocacy is challenged by empirical evidence of its inherent fragility. The post-dictatorship context of Argentina in the early 2000s, characterized by a "memory explosion," saw the institutionalization of archival practices within state apparatuses, including the military. These collaborations, involving archivists and human rights practitioners, were instrumental in the preservation of documentary heritage from the period of state-sponsored violence. A parallel trajectory unfolded in Guatemala in 2005 with the inter-organizational effort to recover and safeguard the Historical Archive of the National Police (AHPN).
+
+The reversals of 2016, however, demonstrate the contingent nature of these achievements. The administration of Mauricio Macri in Argentina initiated a process of de-funding human rights programs and liquidating memory centers. In Guatemala, the political transition to the Jimmy Morales presidency led to the institutional dismantling of the AHPN’s autonomy, transferring its custody from the National Archives to the Ministry for Culture and Sports. The consequences for AHPN personnel—including death threats, professional marginalization, and forced exile—further illustrate the precariousness of this work.
+
+This regression validates Walter Benjamin’s critical warning against *historicism*, a mode of thought that frames history as a cumulative march toward progress. Benjamin's alternative, a materialist conception of history, posits that historical moments are not additive but are instead constituted by ongoing, antagonistic struggles between dominant and marginalized groups. This theoretical framework provides a powerful lens through which to understand the role of transitional archives. It reframes them not as neutral repositories but as active sites requiring continuous efforts to re-capture and re-contextualize records, thereby empowering marginalized narratives and serving the cause of restorative justice for victims of human rights abuses.
 
 ## References
 
