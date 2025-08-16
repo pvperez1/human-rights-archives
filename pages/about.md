@@ -18,7 +18,8 @@ Viebach (2021) introduces the related concept of *transitional archives*, design
 
 ## References
 
-[^1] Caswell, M. (2014). Defining human rights archives: Introduction to the special double issue on archives and human rights. Archival Science, 14(3), 207–213. [https://doi.org/10.1007/s10502-014-9226-0](https://doi.org/10.1007/s10502-014-9226-0)
-[^2] Viebach, J. (2021). Transitional archives: Towards a conceptualisation of archives in transitional justice. The International Journal of Human Rights, 25(3), 403–439. [https://doi.org/10.1080/13642987.2020.1811693](https://doi.org/10.1080/13642987.2020.1811693)
+[^1]: Caswell, M. (2014). Defining human rights archives: Introduction to the special double issue on archives and human rights. Archival Science, 14(3), 207–213. [https://doi.org/10.1007/s10502-014-9226-0](https://doi.org/10.1007/s10502-014-9226-0)
+
+[^2]: Viebach, J. (2021). Transitional archives: Towards a conceptualisation of archives in transitional justice. The International Journal of Human Rights, 25(3), 403–439. [https://doi.org/10.1080/13642987.2020.1811693](https://doi.org/10.1080/13642987.2020.1811693)
 
 
