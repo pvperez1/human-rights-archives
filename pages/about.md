@@ -33,16 +33,15 @@ In analyzing collections of human rights archives, it is essential to consider t
 
 In terms or type of institution, this project identified the following:
 
-| Icon used in [Map](https://pvperez1.github.io/human-rights-archives/map.html) | Type of Institution |
-| ------------------------------------------ | ----------------------------------- |
-| <img src="{{ '/assets/map-icons/hrngo.png' | relative_url }}" alt="HRNGO icon" width="32"> | Human Rights and Non-government Organizations |
-| <img src="{{ '/assets/map-icons/commissions.png' | relative_url }}" alt="Commissions icon" width="32"> | Truth, Reparations, and/or Memorialization Commissions |
-| <img src="{{ '/assets/map-icons/community.png' | relative_url }}" alt="Community icon" width="32"> | Community-led, family, or individuals |
-| <img src="{{ '/assets/map-icons/court.png' | relative_url }}" alt="Court icon" width="32"> | Tribunals and other courts |
-| <img src="{{ '/assets/map-icons/lam.png' | relative_url }}" alt="LAM icon" width="32"> | Public library, archives, or museum |
-| <img src="{{ '/assets/map-icons/research.png' | relative_url }}" alt="Research icon" width="32"> | University or research institute |
-| <img src="{{ '/assets/map-icons/religious.png' | relative_url }}" alt="Religious icon" width="32"> | Religious Sector |
-| <img src="{{ '/assets/map-icons/othergov.png' | relative_url }}" alt="Other Government icon" width="32"> | Other government agencies |
+- <img src="{{ '/assets/map-icons/hrngo.png' | relative_url }}" alt="HRNGO icon" width="32"> Human Rights and Non-government Organizations
+- <img src="{{ '/assets/map-icons/commissions.png' | relative_url }}" alt="Commissions icon" width="32"> Truth, Reparations, and/or Memorialization Commissions
+- <img src="{{ '/assets/map-icons/community.png' | relative_url }}" alt="Community icon" width="32"> Community-led, family, or individuals
+- <img src="{{ '/assets/map-icons/court.png' | relative_url }}" alt="Court icon" width="32"> Tribunals and other courts
+- <img src="{{ '/assets/map-icons/lam.png' | relative_url }}" alt="LAM icon" width="32"> Public library, archives, or museum
+- <img src="{{ '/assets/map-icons/research.png' | relative_url }}" alt="Research icon" width="32"> University or research institute
+- <img src="{{ '/assets/map-icons/religious.png' | relative_url }}" alt="Religious icon" width="32"> Religious Sector
+- <img src="{{ '/assets/map-icons/othergov.png' | relative_url }}" alt="Other Government icon" width="32"> Other government agencies
+
 
 ## References
 
